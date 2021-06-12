@@ -1,0 +1,22 @@
+/* Web Fonts ----------------------- */
+
+
+/* Base Styles --------------------- */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%; /* 10px on most screens */
+}
+img {
+  width: 100%; /* responsive images */
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Main Styles --------------------- */
+
+
+/* Media Queries ------------------- */
+
