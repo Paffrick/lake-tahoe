@@ -13,11 +13,16 @@ html {
 }
 img {
   width: 100%; /* responsive images */
+  border-radius: 10px;
 }
 body {
   margin: 2rem;
   color: #454959;
   font: 300 2rem/1.5 'Work Sans', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #cc4e13;
 }
 h1, h2 {
   font: normal 100%/1.1 'Abolition-Regular', Impact, sans-serif;
@@ -26,6 +31,10 @@ h1 {
   font-size: 8rem;
   text-shadow: 1px 2px 3px rgba(0, 10, 30, .5);
   }
+h1::after {
+  content: '\2193';
+  display: block;
+}  
 h2 {
   font-size: 5rem;
 }
@@ -47,6 +56,29 @@ header, footer {
 }
 main {
   hyphens: auto;
+}
+#wildlife {
+  padding: 20% 15%;
+  border-top: 12px solid #f3753b;
+  border-radius: 12px 12px 0 0;
+  background-color: #454959;
+  color: #FFF;
+  box-shadow: inset 0 0 20px 10px rgba(0,10,30,.8);
+}
+#wildlife a {
+  color: #f7a27c;
+}
+.callout {
+  display: block;
+  width: 250px;
+  margin: 2rem auto;
+  padding: .5rem 2rem;
+  border-radius: 20px/10px;
+  box-shadow: 1px 2px 3px rgba(0, 10, 30, .5);
+  background-color: #cc4e13;
+  color: #FFF;
+  text-align: center;  
+  font-size: 2.5rem;
 }
 /* Media Queries ------------------- */
 
